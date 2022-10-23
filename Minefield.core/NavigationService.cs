@@ -12,11 +12,7 @@
 
             switch (consoleKeyInfo.Key)
             {
-                case ConsoleKey.DownArrow:
-                    {
-                        NumberOfMoves++;
-                        return 1;
-                    }
+                case ConsoleKey.DownArrow: { NumberOfMoves++; return 1; }
                 case ConsoleKey.UpArrow: { NumberOfMoves++; return 2; }
                 case ConsoleKey.RightArrow: { NumberOfMoves++; return 3; }
                 case ConsoleKey.LeftArrow: { NumberOfMoves++; return 4; }
