@@ -10,4 +10,4 @@ using IHost host = Host.CreateDefaultBuilder(args)
                 .AddTransient<IMineService, MineService>())
     .Build();
 
-host.Services.GetService<IGameController>().Run();
+host.Services.GetRequiredService<IGameController>().Run();
