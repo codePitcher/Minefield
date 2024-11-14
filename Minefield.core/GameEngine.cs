@@ -32,7 +32,7 @@
         public void Initialise()
         {
             _mineService.CreateMines(5);
-            _numberOfLives = 2;
+            _numberOfLives = 3;
 
             Console.WriteLine("Minefield v1.0");
         }
