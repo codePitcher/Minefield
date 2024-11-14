@@ -34,7 +34,7 @@
             _mineService.CreateMines(5);
             _numberOfLives = 3;
 
-            Console.WriteLine("Minefield v1.0");
+            Console.WriteLine("Minefield v1.1");
         }
 
         public void Play()
